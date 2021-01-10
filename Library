@@ -1,0 +1,666 @@
+INSERT INTO MyLibrary 
+(
+	Title,
+	Author, 
+	Pages, 
+	Genre, 
+	DatePublished, 
+	ISBN, 
+	Format, 
+	Synopsis,
+	Wiki,
+	id
+)
+
+VALUES 
+(
+	'Crushing It!: How Great Entrepreneurs Build Their Business and Influence-and How You Can, Too',
+	'Gary Vaynerchuk', 
+	232, 
+	'Self-Help', 
+	'01-30-2018', 
+	'9780062674678', 
+	'Hardcover', 
+	'Gary Vaynerchuk dissects every current major social media platform so that anyone can understand exactly which platforms to use to distribute digital content. He offers both theoretical and tactical advice on how to become the biggest thing on old standbys such as Twitter, Facebook, YouTube, and Instagram as well as younger upstarts such as Musical.ly; audio-centric platforms such as Spotify, SoundCloud, iHeartRadio, and iTunes; and newcomer Alexa Skills. For those with more experience, Crushing It! illuminates some little-known nuances and provides innovative tips and clever tweaks proven to enhance more common, tried-and-true strategies.',
+	'https://www.garyvaynerchuk.com/crush-crushing-whats-changed-since-first-book/',
+	0003
+);
+
+INSERT INTO MyLibrary 
+(
+	Title,
+	Author, 
+	Pages, 
+	Genre, 
+	DatePublished, 
+	ISBN, 
+	Format, 
+	Synopsis,
+	Wiki,
+	id
+)
+
+VALUES 
+(
+	'Zig Ziglar''s Secrets of Closing the Sale: For Anyone Who Must Get Others to Say Yes!',
+	'Zig Ziglar', 
+	431, 
+	'Self-Help', 
+	'09-01-1985', 
+	'9781606711293', 
+	'Hardcover', 
+	'Full of entertaining stories and real-life illustrations, Secrets of Closing the Sale will give you the strategies and guidelines you need to become proficient in the art of effective persuasion. You will learn how to project warmth, enthusiasm, and integrity; effectively use over one hundred creative closes; increase productivity and professionalism; overcome the basic reasons people will not buy; deal respectfully with challenging prospects.',	
+	'https://www.ziglar.com/product/secrets-of-closing-the-sale-by-zig-ziglar-complete-with-brand-new-contributions-from-kevin-harrington/',
+	0004
+);
+
+SELECT * FROM MyLibrary ORDER BY id;
+
+DELETE FROM MyLibrary WHERE id = 3;
+DELETE FROM MyLibrary WHERE id = 4;
+
+INSERT INTO MyLibrary 
+(
+Title,
+Author, 
+Pages, 
+Genre, 
+DatePublished, 
+ISBN, 
+Format, 
+Synopsis,
+Wiki,
+id
+)
+
+VALUES 
+(
+'Behold a Pale Horse',
+'Milton William Cooper',
+546, 
+'Science Fiction', 
+'12-01-1991', 
+'9780929385228', 
+'Paperback', 
+'William Cooper offers a lengthy analysis of the state of global events, presenting information, which he claims is secretly held by governments. Cooper argues that numerous secret societies exist, which were organized into a single massive society c. 1953; that a Secret Government, which controls everything, was established shortly after World War II; that the government seeks to eliminate population through various means and that extra-terrestrial intelligent life exists and often visits earth. In addition, Cooper offers auto-biographical information and proffers a plethora of putative facts regarding the massive and systematic disinformation campaign waged upon the public by those in power.',
+'https://en.wikipedia.org/wiki/Milton_William_Cooper',
+0005
+);
+
+SELECT * FROM MyLibrary;
+
+INSERT INTO MyLibrary 
+(
+Title,
+Author, 
+Pages, 
+Genre, 
+DatePublished, 
+ISBN, 
+Format, 
+Synopsis,
+Wiki,
+id
+)
+
+VALUES 
+(
+'Adventure Capitalist: The Ultimate Road Trip',
+'Jim Rogers',
+585, 
+'Finance', 
+'12-07-2004', 
+'9780812967265', 
+'Paperback', 
+'In Adventure Capitalist, legendary investor Jim Rogers proves that the best way to profit from the global situation is to see the world mile by mile. Behind the wheel of a sunburst-yellow, custom-built convertible Mercedes, Rogers and his fiancee, Paige Parker, began their "Millennium Adventure" on January 1, 1999, from Iceland. They traveled through 116 countries, including many where most have rarely ventured, such as Saudi Arabia, Myanmar, Angola, Sudan, Congo, Colombia, and East Timor. They drove through war zones, deserts, jungles, epidemics, and blizzards. They had many narrow escapes. They camped with nomads and camels in the western Sahara. They ate silkworms, iguanas, snakes, termites, guinea pigs, porcupines, crocodiles, and grasshoppers. Best of all, they saw the real world from the ground up--the only vantage point from which it can be truly understood--economically, politically, and socially.',
+'https://www.jimrogers.com/',
+0006
+);
+
+INSERT INTO MyLibrary 
+(
+Title,
+Author, 
+Pages, 
+Genre, 
+DatePublished, 
+ISBN, 
+Format, 
+Synopsis,
+Wiki,
+id
+)
+
+VALUES 
+(
+'The Norton Anthology African American Literature',
+'Henry Louis Gates Jr., Valerie Smith, William L. Andrews, Kimberly Benston, Brent Hayes Edwards, Frances Smith Foster, Deborah E. McDowell, Robert G. O''Meally, Hortense Spillers, Cheryl A. Wall',
+2800, 
+'History', 
+'03-25-2014', 
+'9780393911558', 
+'Paperback', 
+'The much-anticipated Third Edition brings together the work of 140 writers from 1746 to the present writing in all genres, as well as performers of vernacular forms—from spirituals and sermons to jazz and hip hop. Fresh scholarship, new visuals and media, and new selections—with an emphasis on contemporary writers—combine to make The Norton Anthology of African American Literature an even better teaching tool for instructors and an unmatched value for students.',
+'https://wwnorton.com/books/9780393911558',
+0007
+);
+
+INSERT INTO MyLibrary 
+(
+Title,
+Author, 
+Pages, 
+Genre, 
+DatePublished, 
+ISBN, 
+Format, 
+Synopsis,
+Wiki,
+id
+)
+
+VALUES 
+(
+'The Big Book Of How To Say It',
+'Rosalie Maggio, Jack Griffin',
+890, 
+'Self-Help', 
+'01-01-1998', 
+'9780735204034', 
+'Hardcover', 
+'How to Say It is a practical, easy-to-use book that tells you what to say and how to say it. It features comprehensive, versatile lists of words, phrases, sentences, and paragraphs that allow you to express yourself on any subject in your own voice and style.',
+'https://rosaliemaggio.com/',
+0008
+);
+
+INSERT INTO MyLibrary 
+(
+Title,
+Author, 
+Pages, 
+Genre, 
+DatePublished, 
+ISBN, 
+Format, 
+Synopsis,
+Wiki,
+id
+)
+
+VALUES 
+(
+'Tenth of December: Stories',
+'George Saunders',
+222, 
+'Fiction, Short Stories', 
+'01-07-2014', 
+'9780812984255', 
+'Paperback', 
+'Tenth of December is a collection of short stories by American author George Saunders.',
+'https://en.wikipedia.org/wiki/Tenth_of_December:_Stories',
+0009
+);
+
+INSERT INTO MyLibrary 
+(
+Title,
+Author, 
+Pages, 
+Genre, 
+DatePublished, 
+ISBN, 
+Format, 
+Synopsis,
+Wiki,
+id
+)
+
+VALUES 
+(
+'Where the Sidewalk Ends: Poems and Drawings',
+'Shel Silverstein',
+176, 
+'Poetry', 
+'01-01-1974', 
+'9780060256678', 
+'Hardcover', 
+'Where the Sidewalk Ends is a 1974 children''s poetry collection written and illustrated by Shel Silverstein. The book''s poems address many common childhood concerns and also present purely fanciful stories and imagination inspiring images. ',
+'https://en.wikipedia.org/wiki/Where_the_Sidewalk_Ends',
+0010
+);
+
+INSERT INTO MyLibrary 
+(
+Title,
+Author, 
+Pages, 
+Genre, 
+DatePublished, 
+ISBN, 
+Format, 
+Synopsis,
+Wiki,
+id
+)
+
+VALUES 
+(
+'StrengthsFinder 2.0',
+'Tom Rath',
+192, 
+'Self-Help', 
+'02-01-2007', 
+'9781595620156', 
+'Hardcover', 
+'StrengthsFinder is based on the idea that everyone has natural talents that can be developed into Strengths. Led by psychologist Don Clifton and Gallup, this idea has been studied for more than 40 years. The findings show that everyone has some combination of a list of only 34 basic strengths. This assessment has helped millions discover and develop their natural talents.',
+'https://www.gallup.com/cliftonstrengths/en/strengthsfinder.aspx',
+0011
+);
+
+INSERT INTO MyLibrary 
+(
+Title,
+Author, 
+Pages, 
+Genre, 
+DatePublished, 
+ISBN, 
+Format, 
+Synopsis,
+Wiki,
+id
+)
+
+VALUES 
+(
+'Divergent',
+'Veronica Roth',
+487, 
+'Science Fiction', 
+'04-26-2011', 
+'9780062194060', 
+'Paperback', 
+'The novel Divergent features a post-apocalyptic version of Chicago and follows Beatrice "Tris" Prior as she explores her identity within a society that defines its citizens by their social and personality-related affiliation with five factions, which removes the threat of anyone exercising independent will and re-threatening the population''s safety. ',
+'https://veronicarothbooks.com/books/divergent/',
+0012
+);
+
+INSERT INTO MyLibrary 
+(
+Title,
+Author, 
+Pages, 
+Genre, 
+DatePublished, 
+ISBN, 
+Format, 
+Synopsis,
+Wiki,
+id
+)
+
+VALUES 
+(
+'The 7 Habits of Highly Effective People',
+'Stephen Covey',
+420, 
+'Self-Help', 
+'08-15-1989', 
+'9780731811571', 
+'Paperback', 
+'Covey presents an approach to being effective in attaining goals by aligning oneself to what he calls "true north" principles based on a character ethic that he presents as universal and timeless.',
+'https://www.franklincovey.com/the-7-habits/',
+0013
+);
+
+INSERT INTO MyLibrary 
+(
+Title,
+Author, 
+Pages, 
+Genre, 
+DatePublished, 
+ISBN, 
+Format, 
+Synopsis,
+Wiki,
+id
+)
+
+VALUES 
+(
+'The Total Man',
+'Dan Benson',
+272, 
+'Self-Help', 
+'04-01-1980', 
+'9780842372893', 
+'Paperback', 
+NULL,
+'https://raymondbenson.com/',
+0014
+);
+
+INSERT INTO MyLibrary 
+(
+Title,
+Author, 
+Pages, 
+Genre, 
+DatePublished, 
+ISBN, 
+Format, 
+Synopsis,
+Wiki,
+id
+)
+
+VALUES 
+(
+'101 Ways to Simplify Your Life',
+'Candy Paull',
+128, 
+'Self-Help', 
+'01-15-2004', 
+'9781594750373', 
+'Paperback', 
+'Offers practical and spiritual insight on living simply and meaningfully and helps readers focus on the essentials and enjoy life more.',
+'http://www.candypaull.com/',
+0015
+);
+
+INSERT INTO MyLibrary
+(
+Title,
+Author, 
+Pages, 
+Genre, 
+DatePublished, 
+ISBN, 
+Format, 
+Synopsis,
+Wiki,
+id
+)
+
+VALUES 
+(
+'A History of God: The 4,000-Year Quest of Judaism, Christianity, and Islam',
+'Karen Armstrong',
+487, 
+'History', 
+'08-09-1994', 
+'9780345384560', 
+'Paperback', 
+'Details the history of the three major monotheistic traditions, Judaism, Christianity and Islam, along with Buddhism and Hinduism. The evolution of the idea of God is traced from its ancient roots in the Middle East up to the present day.',
+'https://charterforcompassion.org/about1/karen-armstrong',
+0016
+);
+
+INSERT INTO MyLibrary 
+(
+Title,
+Author, 
+Pages, 
+Genre, 
+DatePublished, 
+ISBN, 
+Format, 
+Synopsis,
+Wiki,
+id
+)
+
+VALUES 
+(
+'Images of Organization',
+'Gareth Morgan',
+520, 
+'Business', 
+'05-09-2006', 
+'9781412939799', 
+'Paperback', 
+'The book is based on a very simple premise—that all theories of organization and management are based on implicit images or metaphors that stretch our imagination in a way that can create powerful insights, but at the risk of distortion. Gareth Morgan provides a rich and comprehensive resource for exploring the complexity of modern organizations internationally, translating leading-edge theory into leading-edge practice.',
+'https://www.bkconnection.com/experts/garethmorgan',
+0017
+);
+
+INSERT INTO MyLibrary 
+(
+Title,
+Author, 
+Pages, 
+Genre, 
+DatePublished, 
+ISBN, 
+Format, 
+Synopsis,
+Wiki,
+id
+)
+
+VALUES 
+(
+'The Millionaire Next Door: The Surprising Secrets of America''s Wealthy',
+'Thomas J. Stanley',
+272, 
+'Finance', 
+'11-16-2010', 
+'9781589795471', 
+'Hardcover', 
+'The Millionaire Next Door identifies seven common traits that show up again and again among those who have accumulated wealth.',
+'https://www.themillionairenextdoor.com/',
+0018
+);
+
+INSERT INTO MyLibrary 
+(
+Title,
+Author, 
+Pages, 
+Genre, 
+DatePublished, 
+ISBN, 
+Format, 
+Synopsis,
+Wiki,
+id
+)
+
+VALUES 
+(
+'Origins: Cosmos, Earth, and Mankind',
+'Yves Coppens, Hubert Reeves, Dominique Simonnet, Joel de Rosney',
+224, 
+'Science', 
+'01-01-1996', 
+'9781559704083', 
+'Hardcover', 
+'Three eminent scientists examine the age-old questions that have obsessed humankind, including the creation of the universe, the first particles, and the evolution that lead to contemporary lifeforms, providing easy-to-understand answers in a layperson''s terms.',
+'http://www.science.ca/scientists/scientistprofile.php?pID=213',
+0019
+);
+
+INSERT INTO MyLibrary 
+(
+Title,
+Author, 
+Pages, 
+Genre, 
+DatePublished, 
+ISBN, 
+Format, 
+Synopsis,
+Wiki,
+id
+)
+
+VALUES 
+(
+'Sarny',
+'Gary Paulsen',
+192, 
+'Historical Fiction', 
+'08-10-1999', 
+'9780440219736', 
+'Paperback', 
+'A riveting story of the power of literacy against the inhumanity of the slave system in the pre-Civil War South. Travel to the Waller plantation and meet 12-year-old Sarny, a slave whose mother was sold away when she was four.',
+'https://www.penguinrandomhouse.com/authors/23384/gary-paulsen/',
+0020
+);
+
+SELECT * FROM MyLibrary ORDER BY id;
+
+INSERT INTO MyLibrary 
+(
+Title,
+Author, 
+Pages, 
+Genre, 
+DatePublished, 
+ISBN, 
+Format, 
+Synopsis,
+Wiki,
+id
+)
+
+VALUES 
+(
+'Tutankhamen: Life and Death of a Pharaoh',
+'Christiane Desroches Noblecourt',
+312, 
+'History', 
+'01-01-1963', 
+'9780718107659', 
+'Paperback', 
+'Reconstructs the young Egyptian king''s early life, coronation, and reign and discusses the archaeological discovery of his tomb and the legendary curse of the pharaohs.',
+'https://en.wikipedia.org/wiki/Christiane_Desroches_Noblecourt',
+0021
+);
+
+INSERT INTO MyLibrary 
+(
+Title,
+Author, 
+Pages, 
+Genre, 
+DatePublished, 
+ISBN, 
+Format, 
+Synopsis,
+Wiki,
+id
+)
+
+VALUES 
+(
+'The Stuff of Thought',
+'Steven Pinker',
+499, 
+'Philosophy', 
+'08-26-2008', 
+'9780143114246', 
+'Paperback', 
+'Pinker argues that language provides a window into human nature and analyzes how our words relate to thoughts and to the world around us. Pinker reveals what this tells us about ourselves and probes the mystery of human nature by examining how we use words.',
+'https://stevenpinker.com/publications/stuff-thought',
+0022
+);
+
+INSERT INTO MyLibrary 
+(
+Title,
+Author, 
+Pages, 
+Genre, 
+DatePublished, 
+ISBN, 
+Format, 
+Synopsis,
+Wiki,
+id
+)
+
+VALUES 
+(
+'To Kill a Mockingbird',
+'Harper Lee',
+399, 
+'Historical Fiction', 
+'07-11-1960', 
+'9780060933272', 
+'Paperback', 
+'In To Kill a Mockingbird, author Harper Lee uses memorable characters to explore civil rights and racism in the segregated Southern United States of the 1930s. Told through the eyes of Scout Finch, you learn about her father Atticus Finch, an attorney who hopelessly strives to prove the innocence of a black man unjustly accused of rape; and about Boo Radley, a mysterious neighbor who saves Scout and her brother Jem from being killed.',
+'https://www.tokillamockingbird.com/',
+0023
+);
+
+INSERT INTO MyLibrary 
+(
+Title,
+Author, 
+Pages, 
+Genre, 
+DatePublished, 
+ISBN, 
+Format, 
+Synopsis,
+Wiki,
+id
+)
+
+VALUES 
+(
+'Ark Angel',
+'Anthony Horowitz',
+340, 
+'Thriller/Adventure Fiction', 
+'04-01-2005', 
+'9780142407387', 
+'Paperback', 
+'Ark Angel is the sixth book in the Alex Rider series written by British author Anthony Horowitz. The novel is a spy thriller which follows the attempt by the title character, Alex Rider, to foil the plot of a Russian billionaire.',
+'https://www.anthonyhorowitz.com/books/title/ark-angel',
+0024
+);
+
+INSERT INTO MyLibrary 
+(
+Title,
+Author, 
+Pages, 
+Genre, 
+DatePublished, 
+ISBN, 
+Format, 
+Synopsis,
+Wiki,
+id
+)
+
+VALUES 
+(
+'The Autobiography of Malcolm X',
+'Alex Haley, Malcolm X',
+544, 
+'Historical Nonfiction', 
+'10-29-1965', 
+'9780141032726', 
+'Paperback', 
+'The Autobiography of Malcolm X was published in 1965, the result of a collaboration between human rights activist Malcolm X and journalist Alex Haley. Haley coauthored the autobiography based on a series of in-depth interviews he conducted between 1963 and Malcolm X''s 1965 assassination. The Autobiography is a spiritual conversion narrative that outlines Malcolm X''s philosophy of black pride, black nationalism, and pan-Africanism.',
+'https://www.malcolmx.com/',
+0025
+);
+
+SELECT * FROM MyLibrary ORDER BY Genre;
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
