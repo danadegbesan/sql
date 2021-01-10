@@ -1,0 +1,28 @@
+CREATE TABLE CameraStore
+	(CameraID INTEGER PRIMARY KEY, Brand TEXT, Format TEXT, Price NUMERIC, Color TEXT, MountType AS TEXT, YearMade NUMERIC);
+INSERT INTO CameraStore VALUES (1001, 'Nikon', 'DSLR', (800), 'Red', 'Crop Sensor', (2012))
+INSERT INTO CameraStore VALUES (1002, 'Panasonic', 'Mirrorless', (500), 'Silver', 'Crop Sensor', (2015))
+INSERT INTO CameraStore VALUES (1003, 'Minolta', '35mm Film', (50), 'Black', 'Full Frame', (1981))
+INSERT INTO CameraStore VALUES (1004, 'Rolleiflex', '120mm Film', (1200), 'Black', '4x4', (1990))
+INSERT INTO CameraStore VALUES (1005, 'Canon', 'DSLR', (1500), 'Black', 'Full Frame', (2016))
+INSERT INTO CameraStore VALUES (1006, 'Sony', 'Point and Shoot', (1200), 'Black', 'Crop Sensor', (2018))
+INSERT INTO CameraStore VALUES (1007, 'Fujifilm', 'DSLR', (2600), 'Silver', '6x7', (2019))
+INSERT INTO CameraStore VALUES (1008, 'Pentax', '120 Film', (750), 'Black', '6x7', (1995))
+INSERT INTO CameraStore VALUES (1009, 'Nikon', 'DSLR', (800), 'Red', 'Crop Sensor', (2012))
+INSERT INTO CameraStore VALUES (1010, 'Panasonic', 'Mirrorless', (500), 'Silver', 'Crop Sensor', (2015))
+INSERT INTO CameraStore VALUES (1011, 'Minolta', '35mm Film', (50), 'Black', 'Full Frame', (1981))
+INSERT INTO CameraStore VALUES (1012, 'Rolleiflex', '120mm Film', (1200), 'Black', '4x4', (1990))
+INSERT INTO CameraStore VALUES (1013, 'Canon', 'DSLR', (1500), 'Black', 'Full Frame', (2016))
+INSERT INTO CameraStore VALUES (1014, 'Sony', 'Point and Shoot', (1200), 'Black', 'Crop Sensor', (2018))
+INSERT INTO CameraStore VALUES (1015, 'Fujifilm', 'DSLR', (2600), 'Silver', '6x7', (2019))
+INSERT INTO CameraStore VALUES (1016, 'Pentax', '120 Film', (750), 'Black', '6x7', (1995))
+INSERT INTO CameraStore VALUES (1017, 'Nikon', 'DSLR', (800), 'Red', 'Crop Sensor', (2012))
+INSERT INTO CameraStore VALUES (1018, 'Panasonic', 'Mirrorless', (500), 'Silver', 'Crop Sensor', (2015))
+INSERT INTO CameraStore VALUES (1019, 'Minolta', '35mm Film', (50), 'Black', 'Full Frame', (1981))
+INSERT INTO CameraStore VALUES (1020, 'Rolleiflex', '120mm Film', (1200), 'Black', '4x4', (1990))
+INSERT INTO CameraStore VALUES (1021, 'Canon', 'DSLR', (1500), 'Black', 'Full Frame', (2016))
+INSERT INTO CameraStore VALUES (1022, 'Sony', 'Point and Shoot', (1200), 'Black', 'Crop Sensor', (2018))
+INSERT INTO CameraStore VALUES (1023, 'Fujifilm', 'DSLR', (2600), 'Silver', '6x7', (2019))
+INSERT INTO CameraStore VALUES (1024, 'Pentax', '120 Film', (750), 'Black', '6x7', (1995))
+INSERT INTO CameraStore VALUES (1025, 'Canon', 'DSLR', (1500), 'Black', 'Full Frame', (2016));
+
